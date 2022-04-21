@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Almendra+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Megrim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 16px;
+}
+body{
+    margin: 0 auto;
+    font-family: 'Raleway',sans-serif;
+    text-align: center;
+}
+#main{
+    width: 640px;
+    height: 480px;
+    background-color: #b4c5ee;
+    margin: 0 auto;
+    /* margin-top: 80px; */
+    padding-top: 130px;
+}
+h1{
+    font-size: 55px;
+    font-family: 'Megrim',sans-serif;
+    color: #ffffff;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color:rgb(255, 255, 166);
+}
+#startBtn{
+    margin-top: 100px;
+}
